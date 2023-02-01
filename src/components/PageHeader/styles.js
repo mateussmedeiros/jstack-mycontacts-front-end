@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.header`
+  margin-bottom: 24px;
+
   a {
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-bottom: 8px;
 
     span {
       color: ${(({ theme }) => theme.colors.primary.main)};

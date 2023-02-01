@@ -99,6 +99,10 @@ export const Card = styled.div`
     }
   }
 
+  .contact-name {
+    margin-bottom: 4px;
+  }
+
   span {
     display: block;
     font-size: 14px;
